@@ -4,22 +4,27 @@ layout: home
 
 hero:
   name: "Alfatta Rezqa"
-  text: "Senior Software Developer"
-  tagline: My great project tagline
+  text: "Senior FrontEnd Developer"
+  tagline: Experienced in VueJS and Flutter for >6 years
+  # image:
+  #   src: https://alft.dev/img/profile-3-4.webp
+  #   alt: VitePress
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Hire Alfatta
+      link: https://linkedin.com/in/alfattarezqa
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Blog
+      link: /blog
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Blog
+#     details: Some writings about the tech I've learned
+#     link: /blog
+#   - title: Project
+#     details: Some writings about the tech I've learned
+#     link: /blog
+#   - title: Blog
+#     details: Some writings about the tech I've learned
+#     link: /blog
 ---
-

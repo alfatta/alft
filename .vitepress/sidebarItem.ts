@@ -1,11 +1,6 @@
 import { DefaultTheme } from "vitepress";
 
 export default [
-  {
-    text: 'Examples',
-    items: [
-      { text: 'Markdown Examples', link: '/markdown-examples' },
-      { text: 'Runtime API Examples', link: '/api-examples' }
-    ]
-  }
+  { text: 'Blog', link: '/blog' },
+  { text: 'About Me', link: '/about-me' },
 ] as DefaultTheme.SidebarItem[]

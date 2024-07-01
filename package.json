@@ -1,0 +1,16 @@
+{
+  "name": "alft",
+  "version": "0.1.0",
+  "description": "Personal Website of Alfatta Rezqa",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.2.3",
+    "vue": "^3.4.31"
+  }
+}

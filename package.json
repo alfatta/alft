@@ -4,9 +4,9 @@
   "description": "Personal Website of Alfatta Rezqa",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vitepress dev src",
-    "build": "vitepress build src",
-    "preview": "vitepress preview src"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
   },
   "license": "ISC",
   "devDependencies": {

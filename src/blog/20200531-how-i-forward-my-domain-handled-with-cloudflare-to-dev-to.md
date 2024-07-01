@@ -1,5 +1,6 @@
 ---
 title: "How I forward my domain handled with cloudflare to DEV.TO"
+description: "Back to the day, i have my own personal site includes blog system built with jekyll. I host it with github pages and it's really awesome to use it."
 prev:
   - text: "How I setup my pc for programming use"
   - link: /blog/20200528-how-i-setup-my-pc-for-programming-use
@@ -11,8 +12,6 @@ next: false
 # How I forward my domain handled with cloudflare to DEV.TO
 
 Back to the day, i have my own personal site includes blog system built with jekyll. I host it with github pages and it's really awesome to use it. If i need to post, i just go to my code editor and type it in markdown format and commit and push it and it will automatically live (wow... some green github contribution).
-
-<!--more-->
 
 After a few years, I decide to revamp it using VuePress (VueJs based static site generator) and host it in netlify with its CI/CD with github. I really love develop it. But then, i realize that i make more development in UI rather than posting some article.
 

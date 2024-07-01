@@ -1,4 +1,6 @@
 ---
+title: "Blog"
+description: "Latest Blog Post"
 prev: false
 next: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "How I setup my pc for programming use"
+description: "Ok, in this post i will share how i setup my Manjaro system as my programming daily driver. Manjaro is a free and open-source Linux distribution"
 prev: false
 next:
   - text: "How I forward my domain handled with cloudflare to DEV.TO"
@@ -11,8 +12,6 @@ next:
 # How I setup my pc for programming use
 
 Ok, in this post i will share how i setup my Manjaro system as my programming daily driver. Manjaro is a free and open-source Linux distribution based on the Arch Linux operating system so installing software can be done with AUR repository. In this setup i use XFCE desktop environtment, you can download from [here](https://manjaro.org/download/official/xfce/)
-
-<!--more-->
 
 First step is to set mirror repo to fastest one and update all installed software
 

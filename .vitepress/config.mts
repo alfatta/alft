@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { type HeadConfig, defineConfig } from 'vitepress'
 
 import nav from './navbarItem'
 import sidebar from './sidebarItem'
@@ -29,5 +29,21 @@ export default defineConfig({
     sidebar,
     socialLinks,
     footer,
-  }
+  },
+  transformHead: ({ pageData }) => {
+    const { title, description } = pageData.frontmatter
+    const head: HeadConfig[] = []
+    if (title) {
+      head.push(['meta', { property: 'og:title', content: title }])
+      head.push(['meta', { property: 'twitter:title', content: title }])
+      head.push(['meta', { property: "twitter:card", content: "summary_large_image" }])
+      head.push(['meta', { property: "twitter:site", content: "@alfattarezqa" }])
+      head.push(['meta', { property: "twitter:creator", content: "@alfattarezqa" }])
+    }
+    if (description) {
+      head.push(['meta', { property: 'og:description', content: description }])
+      head.push(['meta', { property: 'twitter:description', content: description }])
+    }
+    return head
+  },
 })

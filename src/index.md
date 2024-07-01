@@ -6,9 +6,6 @@ hero:
   name: "Alfatta Rezqa"
   text: "Senior FrontEnd Developer"
   tagline: Experienced in VueJS and Flutter for >6 years
-  # image:
-  #   src: https://alft.dev/img/profile-3-4.webp
-  #   alt: VitePress
   actions:
     - theme: brand
       text: Hire Alfatta
@@ -17,14 +14,6 @@ hero:
       text: Blog
       link: /blog
 
-# features:
-#   - title: Blog
-#     details: Some writings about the tech I've learned
-#     link: /blog
-#   - title: Project
-#     details: Some writings about the tech I've learned
-#     link: /blog
-#   - title: Blog
-#     details: Some writings about the tech I've learned
-#     link: /blog
+title: "Alfatta Rezqa"
+description: "Highly motivated software developer with >6 years of experience in designing and implementing software solutions. Dedicated to build high-quality software."
 ---

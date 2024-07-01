@@ -15,6 +15,11 @@ export default defineConfig({
   // feature toggle
   lastUpdated: true,
 
+  // seo
+  head: [
+    ['link', { rel: "icon", href: "/img/profile-circle.webp", type: "image/webp" }],
+  ],
+
   // theme config
   title: "Alfatta Rezqa",
   description: "Senior Software Developer",

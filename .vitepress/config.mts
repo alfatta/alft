@@ -19,6 +19,9 @@ export default defineConfig({
   head: [
     ['link', { rel: "icon", href: "/img/profile-circle.webp", type: "image/webp" }],
   ],
+  sitemap: {
+    hostname: 'https://alft.dev',
+  },
 
   // theme config
   title: "Alfatta Rezqa",

@@ -7,10 +7,9 @@ export default [
     text: 'About Me',
     items: [
       { text: 'About', link: '/about-me' },
-      { text: 'Skills', link: '/about-me#skill' },
+      { text: 'Skills', link: '/about-me#skills-and-technologies' },
       { text: 'Work Experience', link: '/about-me#work-experience' },
       { text: 'Contact', link: '/about-me#contact' },
-      { text: 'Hire', link: '/about-me#hire-me' },
     ]
   },
   { text: 'Weapon', link: '/weapon' },

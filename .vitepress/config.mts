@@ -9,7 +9,7 @@ const baseHead: HeadConfig[] = [
   ['link', { rel: "icon", href: "/img/profile-circle.webp", type: "image/webp" }],
 ]
 
-if (process.env.UMAMI_ID) baseHead.push(['script', { defer: "true", src: "https://analytics.us.umami.is/script.js", "data-website-id": process.env.UMAMI_ID }])
+if (process.env.UMAMI_ID) baseHead.push(['script', { defer: "true", src: "https://cloud.umami.is/script.js", "data-website-id": process.env.UMAMI_ID }])
 if (process.env.GOOGLE_ID) baseHead.push(['meta', { name: "google-site-verification", content: process.env.GOOGLE_ID }],)
 
 // https://vitepress.dev/reference/site-config

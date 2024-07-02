@@ -21,6 +21,7 @@ export default defineConfig({
 
   // feature toggle
   lastUpdated: true,
+  cleanUrls: true,
 
   // seo
   head: baseHead,

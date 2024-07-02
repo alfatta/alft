@@ -3,8 +3,8 @@ title: "How I setup my pc for programming use"
 description: "Ok, in this post i will share how i setup my Manjaro system as my programming daily driver. Manjaro is a free and open-source Linux distribution"
 prev: false
 next:
-  - text: "How I forward my domain handled with cloudflare to DEV.TO"
-  - link: /blog/20200528-how-i-setup-my-pc-for-programming-use
+  text: "How I forward my domain handled with cloudflare to DEV.TO"
+  link: /blog/20200531-how-i-forward-my-domain-handled-with-cloudflare-to-dev-to
 ---
 
 ![How I setup my pc for programming use](https://images.unsplash.com/photo-1587620962725-abab7fe55159)

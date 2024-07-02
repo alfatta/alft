@@ -2,9 +2,11 @@
 title: "How I forward my domain handled with cloudflare to DEV.TO"
 description: "Back to the day, i have my own personal site includes blog system built with jekyll. I host it with github pages and it's really awesome to use it."
 prev:
-  - text: "How I setup my pc for programming use"
-  - link: /blog/20200528-how-i-setup-my-pc-for-programming-use
-next: false
+  text: "How I setup my pc for programming use"
+  link: /blog/20200528-how-i-setup-my-pc-for-programming-use
+next: 
+  text: "Vue.js: Ref vs Reactive and Which One Should I Use?"
+  link: /blog/20240702-vuejs-ref-vs-reactive-and-which-one-should-i-use
 ---
 
 ![How I forward my domain handled with cloudflare to DEV.TO](https://images.unsplash.com/photo-1544197150-b99a580bb7a8)

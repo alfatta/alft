@@ -11,20 +11,20 @@ Hi👋, my name is Alfatta Rezqa. I'm a highly motivated frontend developer with
 
 These are the main tools that I use on a daily basis:
 
-<p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="40" height="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40" height="40" />
-</p>
+<div class="skills">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" />
+</div>
 
 ## Work Experience
 
@@ -35,13 +35,16 @@ Please visit [my LinkedIn profile](https://linkedin.com/in/alfattarezqa) to get 
 Feel free to reach out to me for collaboration, questions, or just to connect! 😊
 
 [![LinkedIn](https://img.shields.io/badge/Alfatta_Rezqa-000000?logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/alfattarezqa)
+
 [![Github](https://img.shields.io/badge/alfatta-000000?logo=github)](https://github.com/alfatta)
+
 [![X](https://img.shields.io/badge/@alfattarezqa-000000?logo=x)](https://x.com/alfattarezqa)
+
 [![Instagram](https://img.shields.io/badge/@alfattarezqa-000000?logo=instagram)](https://instagram.com/alfattarezqa)
+
 [![Mail](https://img.shields.io/badge/me@alft.dev-000000?logo=gmail)](mailto://me@alft.dev)
 
 <style>
-  img { display: inline }
-  img:not(:last-child),
-  a:has(img):not(:last-child) { margin-right: 8px }
+.skills { display: flex; gap: 8px; }
+.skills img { width: 40px; height: 40px; }
 </style>

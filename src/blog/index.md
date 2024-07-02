@@ -3,6 +3,7 @@ title: "Blog"
 description: "Latest Blog Post"
 prev: false
 next: false
+image: https://images.unsplash.com/photo-1542435503-956c469947f6?fit=crop&w=800&h=418
 ---
 
 # Latest Blog Post

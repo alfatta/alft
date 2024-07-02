@@ -5,9 +5,10 @@ prev:
   text: "How I forward my domain handled with cloudflare to DEV.TO"
   link: /blog/20200531-how-i-forward-my-domain-handled-with-cloudflare-to-dev-to
 next: false
+image: https://images.unsplash.com/photo-1640158615573-cd28feb1bf4e?fit=crop&w=800&h=418
 ---
 
-![Vue.js: Ref vs Reactive and Which One Should I Use?](https://images.unsplash.com/photo-1640158615573-cd28feb1bf4e)
+![Vue.js: Ref vs Reactive and Which One Should I Use?](https://images.unsplash.com/photo-1640158615573-cd28feb1bf4e?fit=crop&w=800&h=418)
 
 # Vue.js: Ref vs Reactive and Which One Should I Use?
 

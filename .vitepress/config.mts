@@ -39,7 +39,7 @@ export default defineConfig({
     footer,
   },
   transformHead: ({ pageData }) => {
-    const { title, description } = pageData.frontmatter
+    const { title, description, image } = pageData.frontmatter
     const head: HeadConfig[] = []
     if (title) {
       head.push(['meta', { property: 'og:title', content: title }])
@@ -47,11 +47,21 @@ export default defineConfig({
       head.push(['meta', { property: "twitter:card", content: "summary_large_image" }])
       head.push(['meta', { property: "twitter:site", content: "@alfattarezqa" }])
       head.push(['meta', { property: "twitter:creator", content: "@alfattarezqa" }])
+      head.push(['meta', { property: 'og:image:alt', content: title }])
+      head.push(['meta', { property: 'twitter:image:alt', content: title }])
     }
     if (description) {
       head.push(['meta', { property: 'og:description', content: description }])
       head.push(['meta', { property: 'twitter:description', content: description }])
     }
+    if (image) {
+      head.push(['meta', { property: 'og:image', content: image }])
+      head.push(['meta', { property: 'twitter:image', content: image }])
+    } else {
+      head.push(['meta', { property: 'og:image', content: '/img/og.png' }])
+      head.push(['meta', { property: 'twitter:image', content: '/img/og.png' }])
+    }
+
     return head
   },
 })

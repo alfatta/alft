@@ -5,9 +5,10 @@ prev: false
 next:
   text: "How I forward my domain handled with cloudflare to DEV.TO"
   link: /blog/20200531-how-i-forward-my-domain-handled-with-cloudflare-to-dev-to
+image: https://images.unsplash.com/photo-1587620962725-abab7fe55159?fit=crop&w=800&h=418
 ---
 
-![How I setup my pc for programming use](https://images.unsplash.com/photo-1587620962725-abab7fe55159)
+![How I setup my pc for programming use](https://images.unsplash.com/photo-1587620962725-abab7fe55159?fit=crop&w=800&h=418)
 
 # How I setup my pc for programming use
 

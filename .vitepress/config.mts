@@ -58,8 +58,8 @@ export default defineConfig({
       head.push(['meta', { property: 'og:image', content: image }])
       head.push(['meta', { property: 'twitter:image', content: image }])
     } else {
-      head.push(['meta', { property: 'og:image', content: '/img/og.png' }])
-      head.push(['meta', { property: 'twitter:image', content: '/img/og.png' }])
+      head.push(['meta', { property: 'og:image', content: 'https://alft.dev/img/og.png' }])
+      head.push(['meta', { property: 'twitter:image', content: 'https://alft.dev/img/og.png' }])
     }
 
     return head

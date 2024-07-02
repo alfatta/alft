@@ -1,6 +1,6 @@
 import { DefaultTheme } from "vitepress";
 
 export default {
-  copyright: `Copyright © ${new Date().getFullYear()}. Alfatta Rezqa`,
+  copyright: 'Copyright © 2024. Alfatta Rezqa',
   // message: ''
 } as DefaultTheme.Footer

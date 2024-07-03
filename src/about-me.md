@@ -1,4 +1,6 @@
 ---
+title: "About Me"
+description: "Hi👋, my name is Alfatta Rezqa. I'm a highly motivated software developer with more than 6 years of experience in designing and implementing software solutions"
 prev: false
 next: false
 ---

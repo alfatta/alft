@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "Latest Blog Post"
+description: "Here some of the blog posts I have written. I write about tech i use, what i learn today, and sometime tips to do something."
 prev: false
 next: false
 image: https://images.unsplash.com/photo-1542435503-956c469947f6?fit=crop&w=800&h=418

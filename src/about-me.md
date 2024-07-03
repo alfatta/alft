@@ -42,8 +42,6 @@ Feel free to reach out to me for collaboration, questions, or just to connect! ð
 
 [![Instagram](https://img.shields.io/badge/@alfattarezqa-000000?logo=instagram)](https://instagram.com/alfattarezqa)
 
-[![Mail](https://img.shields.io/badge/me@alft.dev-000000?logo=gmail)](mailto://me@alft.dev)
-
 <style>
 .skills { display: flex; gap: 8px; }
 .skills img { width: 40px; height: 40px; }

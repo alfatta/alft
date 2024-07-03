@@ -12,7 +12,8 @@ hero:
     - theme: alt
       text: Blog
       link: /blog
-title: "Alfatta Rezqa | Software Developer"
+title: "Alfatta Rezqa"
+titleTemplate: "Software Developer"
 description: "Highly motivated software developer with >6 years of experience in designing and implementing software solutions. Dedicated to build high-quality software."
 features:
   - icon: 🧑🏻‍💻

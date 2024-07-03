@@ -5,7 +5,7 @@ next: false
 
 # About Me
 
-Hi👋, my name is Alfatta Rezqa. I'm a highly motivated frontend developer with more than 6 years of experience in designing and implementing software solutions. Skilled in a wide range of technical skills, including Vue js, Flutter, React js, Node js, and committed to achieving excellence in all aspects of his work. Have a strong attention to detail and is proficient in working both independently and as part of a team. Overall, I'm a dedicated professional with a proven ability to deliver results in a variety of settings.
+Hi👋, my name is Alfatta Rezqa. I'm a highly motivated software developer with more than 6 years of experience in designing and implementing software solutions. Skilled in a wide range of technical skills, including Vue js, Flutter, React js, Node js, and committed to achieving excellence in all aspects of his work. Have a strong attention to detail and is proficient in working both independently and as part of a team. Overall, I'm a dedicated professional with a proven ability to deliver results in a variety of settings.
 
 ## Skills and Technologies
 

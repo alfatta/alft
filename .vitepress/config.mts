@@ -12,6 +12,8 @@ const baseHead: HeadConfig[] = [
 if (process.env.UMAMI_ID) baseHead.push(['script', { defer: "true", src: "https://cloud.umami.is/script.js", "data-website-id": process.env.UMAMI_ID }])
 if (process.env.GOOGLE_ID) baseHead.push(['meta', { name: "google-site-verification", content: process.env.GOOGLE_ID }],)
 
+const transformPageToUrl = (page) => `https://alft.dev/${page}`.replace('index.md', '').replace('.md', '')
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // project directory
@@ -39,7 +41,7 @@ export default defineConfig({
     socialLinks,
     footer,
   },
-  transformHead: ({ pageData }) => {
+  transformHead: ({ pageData, page }) => {
     const { title, description, image, type } = pageData.frontmatter
     const head: HeadConfig[] = []
 
@@ -48,6 +50,7 @@ export default defineConfig({
     head.push(['meta', { property: 'og:image', content: image || 'https://alft.dev/img/og.png' }])
     head.push(['meta', { property: 'og:image:alt', content: title || 'Alfatta Rezqa - Software Developer' }])
     head.push(['meta', { property: 'og:type', content: type || 'website' }])
+    head.push(['meta', { property: 'og:url', content: transformPageToUrl(page) }])
 
     head.push(['meta', { property: 'twitter:title', content: title || 'Alfatta Rezqa - Software Developer' }])
     head.push(['meta', { property: 'twitter:description', content: description || 'Highly motivated software developer with >6 years of experience in designing and implementing software solutions. Dedicated to build high-quality software.' }])

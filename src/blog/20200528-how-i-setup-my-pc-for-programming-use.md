@@ -1,6 +1,6 @@
 ---
 title: "How I setup my pc for programming use"
-description: "Discover how to set up your Manjaro Linux system for programming. Follow this comprehensive guide to install essential software and configure your development environment."
+description: "Discover how to set up your Manjaro Linux system for programming. Follow this guide to install essential software and configure your development environment."
 prev: false
 next:
   text: "How I forward my domain handled with cloudflare to DEV.TO"

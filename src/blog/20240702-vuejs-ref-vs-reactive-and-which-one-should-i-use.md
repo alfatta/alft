@@ -1,6 +1,6 @@
 ---
 title: "Vue.js: Ref vs Reactive and Which One Should I Use?"
-description: "When diving into Vue.js 3, the Composition API is a game-changer, introducing new methods to manage reactivity in your components effectively."
+description: "Discover the key differences between ref and reactive in Vue.js. Learn which approach suits your project best and why. Read more now!"
 prev:
   text: "How I forward my domain handled with cloudflare to DEV.TO"
   link: /blog/20200531-how-i-forward-my-domain-handled-with-cloudflare-to-dev-to

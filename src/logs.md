@@ -1,6 +1,6 @@
 ---
 title: "Logs"
-description: "Here are some detailed notes on various activities and projects I have been involved in over the past few years"
+description: "Detailed notes on my various activities and projects from the past few years. Explore my experiences and insights in tech, programming, and more."
 prev: false
 next: false
 ---

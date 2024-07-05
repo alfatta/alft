@@ -1,6 +1,6 @@
 ---
 title: "How I forward my domain handled with cloudflare to DEV.TO"
-description: "Back to the day, i have my own personal site includes blog system built with jekyll. I host it with github pages and it's really awesome to use it."
+description: "Learn how to forward your domain handled with Cloudflare to dev.to. Step-by-step guide to seamless domain forwarding for your website."
 prev:
   text: "How I setup my pc for programming use"
   link: /blog/20200528-how-i-setup-my-pc-for-programming-use

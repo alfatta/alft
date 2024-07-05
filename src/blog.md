@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "Here some of the blog posts I have written. I write about tech i use, what i learn today, and sometime tips to do something."
+description: "Explore Alfatta Rezqa's blog for insightful articles on programming, domain forwarding, and PC setup. Learn from detailed guides and tutorials."
 prev: false
 next: false
 image: https://images.unsplash.com/photo-1542435503-956c469947f6?fit=crop&w=800&h=418

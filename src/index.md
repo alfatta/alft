@@ -19,17 +19,21 @@ features:
   - icon: 🧑🏻‍💻
     title: Work Experience
     link: /about-me#work-experience
-    details: Complete list of my employment history
+    linkText: Explore My Work Experience
+    details: Explore a complete list of my employment history, detailing my professional experience, roles, and achievements over the years.
   - icon: 📝
     title: Blog
     link: /blog
-    details: Some of the blog posts I have written
+    linkText: Explore My Blog
+    details: Explore Alfatta Rezqa's blog for insightful articles on programming, domain forwarding, and PC setup. Learn from detailed guides and tutorials.
   - icon: 🗡️
     title: Weapon
     link: /weapon
-    details: What I rely on as my daily weapon of choice
+    linkText: Discover My Weapon
+    details: Discover essential technical tools (software and hardware) I use daily and highly recommend. Enhance your productivity with these top picks.
   - icon: 📓
     title: Logs
     link: /logs
-    details: Some notes about what i've done
+    linkText: Deep Dive What I've Done
+    details: Detailed notes on my various activities and projects from the past few years. Explore my experiences and insights in tech, programming, and more.
 ---

@@ -1,6 +1,6 @@
 ---
 title: "How I setup my pc for programming use"
-description: "Ok, in this post i will share how i setup my Manjaro system as my programming daily driver. Manjaro is a free and open-source Linux distribution"
+description: "Discover how to set up your Manjaro Linux system for programming. Follow this comprehensive guide to install essential software and configure your development environment."
 prev: false
 next:
   text: "How I forward my domain handled with cloudflare to DEV.TO"

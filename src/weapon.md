@@ -1,6 +1,6 @@
 ---
-title: "About Me"
-description: "Here are some essential tech tools I use daily and highly recommend"
+title: "Weapon"
+description: "Discover essential technical tools (software and hardware) I use daily and highly recommend. Enhance your productivity with these top picks."
 prev: false
 next: false
 ---

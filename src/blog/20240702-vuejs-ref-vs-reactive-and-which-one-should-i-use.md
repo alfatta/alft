@@ -4,7 +4,9 @@ description: "Discover the key differences between ref and reactive in Vue.js. L
 prev:
   text: "How I forward my domain handled with cloudflare to DEV.TO"
   link: /blog/20200531-how-i-forward-my-domain-handled-with-cloudflare-to-dev-to
-next: false
+next:
+  text: "Why You Should Use Vue.js in 2024"
+  link: /blog/20240709-why-you-should-use-vuejs-in-2024
 image: https://images.unsplash.com/photo-1640158615573-cd28feb1bf4e?fit=crop&w=800&h=418
 ---
 

@@ -45,17 +45,22 @@ export default defineConfig({
     const { title, description, image, type } = pageData.frontmatter
     const head: HeadConfig[] = []
 
-    head.push(['meta', { property: 'og:title', content: title || 'Alfatta Rezqa - Software Developer' }])
-    head.push(['meta', { property: 'og:description', content: description || 'Highly motivated software developer with >6 years of experience in designing and implementing software solutions. Dedicated to build high-quality software.' }])
-    head.push(['meta', { property: 'og:image', content: image || 'https://alft.dev/img/og.png' }])
-    head.push(['meta', { property: 'og:image:alt', content: title || 'Alfatta Rezqa - Software Developer' }])
-    head.push(['meta', { property: 'og:type', content: type || 'website' }])
+    const seoTitle = title ? `${title} | Alfatta Rezqa` : 'Alfatta Rezqa | Software Developer'
+    const seoDescription = description || 'Highly motivated software developer with >6 years of experience in designing and implementing software solutions. Dedicated to build high-quality software.'
+    const seoImage = image || 'https://alft.dev/img/og.png'
+    const seoType = type || 'website'
+
+    head.push(['meta', { property: 'og:title', content: seoTitle }])
+    head.push(['meta', { property: 'og:description', content: seoDescription }])
+    head.push(['meta', { property: 'og:image', content: seoImage }])
+    head.push(['meta', { property: 'og:image:alt', content: seoTitle }])
+    head.push(['meta', { property: 'og:type', content: seoType }])
     head.push(['meta', { property: 'og:url', content: transformPageToUrl(page) }])
 
-    head.push(['meta', { property: 'twitter:title', content: title || 'Alfatta Rezqa - Software Developer' }])
-    head.push(['meta', { property: 'twitter:description', content: description || 'Highly motivated software developer with >6 years of experience in designing and implementing software solutions. Dedicated to build high-quality software.' }])
-    head.push(['meta', { property: 'twitter:image', content: image || 'https://alft.dev/img/og.png' }])
-    head.push(['meta', { property: 'twitter:image:alt', content: title || 'Alfatta Rezqa - Software Developer' }])
+    head.push(['meta', { property: 'twitter:title', content: seoTitle }])
+    head.push(['meta', { property: 'twitter:description', content: seoDescription }])
+    head.push(['meta', { property: 'twitter:image', content: seoImage }])
+    head.push(['meta', { property: 'twitter:image:alt', content: seoTitle }])
     head.push(['meta', { property: "twitter:card", content: "summary_large_image" }])
     head.push(['meta', { property: "twitter:site", content: "@alfattarezqa" }])
     head.push(['meta', { property: "twitter:creator", content: "@alfattarezqa" }])

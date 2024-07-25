@@ -1,5 +1,5 @@
 ---
-title: "How I forward my domain handled with cloudflare to DEV.TO"
+title: "Forward domain handled with cloudflare to DEV.TO"
 description: "Learn how to forward your domain handled with Cloudflare to dev.to. Step-by-step guide to seamless domain forwarding for your website."
 prev:
   text: "How I setup my pc for programming use"
@@ -10,9 +10,9 @@ next:
 image: https://images.unsplash.com/photo-1544197150-b99a580bb7a8?fit=crop&w=800&h=418
 ---
 
-![How I forward my domain handled with cloudflare to DEV.TO](https://images.unsplash.com/photo-1544197150-b99a580bb7a8?fit=crop&w=800&h=418)
+![Forward domain handled with cloudflare to DEV.TO](https://images.unsplash.com/photo-1544197150-b99a580bb7a8?fit=crop&w=800&h=418)
 
-# How I forward my domain handled with cloudflare to DEV.TO
+# Forward domain handled with cloudflare to DEV.TO
 
 Back to the day, i have my own personal site includes blog system built with jekyll. I host it with github pages and it's really awesome to use it. If i need to post, i just go to my code editor and type it in markdown format and commit and push it and it will automatically live (wow... some green github contribution).
 

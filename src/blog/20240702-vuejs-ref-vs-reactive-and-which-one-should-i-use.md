@@ -2,7 +2,7 @@
 title: "Vue.js: Ref vs Reactive and Which One Should I Use?"
 description: "Discover the key differences between ref and reactive in Vue.js. Learn which approach suits your project best and why. Read more now!"
 prev:
-  text: "How I forward my domain handled with cloudflare to DEV.TO"
+  text: "Forward domain handled with cloudflare to DEV.TO"
   link: /blog/20200531-how-i-forward-my-domain-handled-with-cloudflare-to-dev-to
 next:
   text: "Why You Should Use Vue.js in 2024"
